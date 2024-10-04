@@ -5,7 +5,7 @@ const { setupMockAPI } = require('./src/mockAPI');
 const logger = require('./src/utils/logger');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 
 // Initialize trading bot
 const tradingBot = new TradingBot({
